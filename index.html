@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Suplement Nature's Touch</title>
+    <title>Suplement Cinematic Experience</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Connect with nature's healing powers with our organic Suplement combo!" />
+    <meta name="description" content="Enhance your viewing experience with our cinematic Suplement combo!" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -13,38 +13,40 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-color: #F5F5F4; /* Neutral off-white for a clean, natural background */
+            background-color: #1C1C1C; /* Dark grey for a cinematic feel */
             font-family: 'Roboto', sans-serif;
         }
 
         main {
             flex: 1;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
             text-align: center;
-            background-image: linear-gradient(to bottom, #ffffff, #d7ccc8); /* Gradient from white to muted earth tone */
+            background-image: linear-gradient(to bottom, #333333, #000000); /* Gradient from dark grey to black */
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
         }
 
         .confirmation-box {
             padding: 20px;
-            background-color: #ffffff; /* Pure white for clarity and simplicity */
+            background-color: #282828; /* Slightly lighter grey for visibility */
             border-radius: 8px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
             width: 100%;
             max-width: 340px;
+            color: #FFFFFF; /* White text for readability */
         }
 
         .confirmation-text {
             font-size: 24px;
-            color: #556B2F; /* Dark olive green for text, grounded and earthy */
+            color: #FF0000; /* Bright red for an energetic, attention-grabbing color */
             font-weight: bold;
             margin-bottom: 20px;
         }
         .btn {
-            background-color: #8FBC8F; /* Soft forest green for the button, soothing and inviting */
+            background-color: #FF0000; /* Bright red for the button, vibrant and energetic */
             border: none;
             padding: 15px 45px;
             font-size: 20px;
@@ -58,18 +60,18 @@
         }
 
         .btn:hover {
-            background-color: #6B8E23; /* A darker shade of olive green for hover, enhancing user interaction */
+            background-color: #CC0000; /* Darker red for hover, adding depth */
         }
 
         #timer {
             margin-top: 20px;
             font-size: 20px;
-            color: #8B4513; /* Saddle brown for a subtle emphasis */
+            color: #FF6347; /* Tomato color for a subtle emphasis */
             font-weight: bold;
         }
 
         footer {
-            background-color: #556B2F; /* Dark olive green for a solid, grounding footer */
+            background-color: #333333; /* Dark grey matching the main theme */
             color: white;
             padding: 20px;
             text-align: center;
@@ -101,15 +103,14 @@
 <body>
     <main>
         <div class="confirmation-box">
-            <p class="confirmation-text">Embrace Nature's Essence: Confirm Your Age & Click Watch Now for a Grounding Experience!</p>
-            <a href="https://thehealthy-life.site/pg1">
+            <p class="confirmation-text">Immerse Yourself in Our Cinematic World! Confirm Your Age & Click Watch Now!</p>
+            <a href="https://track.theman-health.com/">
             <button class="btn" id="proceedButton">WATCH NOW</button>
-        </a>
+            </a>
             <br><br>
             <span id="timer">Access in 15 seconds</span>
         </div>
-        <br><br><br>
-        <!-- Embed YouTube Video Below the Confirmation Box -->
+        <!-- Embed YouTube Video Below -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/A5v8ydxh10o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
     <script>
@@ -130,7 +131,7 @@
         let timerInterval = setInterval(updateTimer, 1000);
       </script>
   
-  <script>
+    <script>
           // Attach URL parameters to the redirect link
           document.addEventListener('DOMContentLoaded', function() {
               var proceedButton = document.querySelector('a');
